@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Details - CodTech</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Course Details</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main class="course-details">
+    <div class="course-banner">
+      <img src="images/banner.jpg" alt="Course Banner">
+    </div>
+    <div class="course-info">
+      <h2>Web Development Masterclass</h2>
+      <p><strong>Instructor:</strong> John Doe</p>
+      <p><strong>Duration:</strong> 8 Weeks</p>
+      <p><strong>Description:</strong> This comprehensive course teaches front-end and back-end development. Learn HTML, CSS, JavaScript, Node.js, and more with hands-on projects.</p>
+      <button onclick="enrollNow()">Enroll Now</button>
+
+      <div class="video-section">
+        <h3>Course Introduction Video</h3>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/Z1Yd7upQsXY" title="Web Development Intro Video" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="progress-section">
+        <h3>Your Progress</h3>
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <button onclick="increaseProgress()">Complete Next Lesson</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CodTech E-Learning. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
